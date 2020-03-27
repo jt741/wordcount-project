@@ -1,0 +1,14 @@
+<!--This is html?
+
+
+
+{{ hithere }}  this is how we can access python code that we pass in--> 
+
+<h1> WORDD count </h1>
+<a href="{% url 'about' %}">About</a>
+
+<form action = "{% url 'counter' %}">
+    <textarea cols='40' rows='5' name='fulltext'></textarea>
+    <br />
+    <input type='submit' value='COUNT!'/>
+</form>
